@@ -45,7 +45,10 @@ export const followUnfollowUser = async (req, res) => {
         from: req.user._id,
         to: userToModify._id,
       });
-      await newNotification.save();
+      console.log("Saving notification:", newNotification);
+
+      const saved = await newNotification.save();
+      console.log("Saved notification:", saved._id);
       res.status(200).json({ message: "User followed successfully." });
     }
   } catch (error) {
