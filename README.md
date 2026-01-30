@@ -178,13 +178,7 @@ Open a Pull Request
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 👤 Author
-Your Name
-
-GitHub: @yourusername
-
-LinkedIn: Your Profile
-
-Portfolio: yourwebsite.com
+Saket Kumar
 
 🙏 Acknowledgments
 Inspired by Twitter/X
